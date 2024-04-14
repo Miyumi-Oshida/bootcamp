@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="#" method="#">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="pwd">Password</label>
+        <input type="password" name="password" id="pwd">
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age">
+        <br><br>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="description">Description</label>
+        <textarea name="description" id="descriotion" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male value=male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        
+        <br><br>
+        <label for="hobbies">Hobby/ies:</label>
+        <input type="checkbox" name="hobby" id="biking" value="biking">
+        <label for="biking">Biking</label>
+        
+        <input type="checkbox" name="hobby" id="painting value="paiting>
+        <label for="painting">Painting</label>
+
+        <input type="checkbox" name="hobby" id="baking" value="baking">
+        <label for="baking">Baking</label>
+
+        <br><br>
+        <label for="device">Select your device</label>
+        <select name="device" id="device">
+            <option value="mobile">Mobile Phone</option>
+            <option value="tablet">Tablet</option>
+            <option value="laptop">Laptop Computer</option>
+            <option value="desktop">Desktop Computer</option>
+        </select>
+
+        <br><br>
+        <label for="device">Select your device</label>
+        <select name="device" id="device" multiple>
+            <option value="mobile">Mobile Phone</option>
+            <option value="tablet">Tablet</option>
+            <option value="laptop">Laptop Computer</option>
+            <option value="desktop">Desktop Computer</option>
+        </select>
+
+        <br><br>
+        <label for="photo">Profile Photo</label>
+        <input type="file" name="photo" id="photo">
+
+        <br><br>
+        <input type="submit" value="Send" name="btn_submit">
+
+        <br><br>
+        <button type="submit" name="btn_send">Submit</button>
+
+       
+        
+        <br><br>
+        <button type="submit">Submit</button>
+        <br><br>
+       
+    </form>
+
+    <hr>
+    <form action="" method="">
+        <label for="full_name">Full Name</label>
+        <input type="text" name="full_name" id="full_name" placeholder="John Doe" required>
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="80" required>
+        <br><br>
+        <input type="submit" value="Submit" name="btn_submit">
+
+
+    </form>
+
+</body>
+</html>

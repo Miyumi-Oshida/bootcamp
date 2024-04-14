@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Typography</title>
+    <style>
+    /*font color*/
+        p{
+            color:blue;
+        }
+
+        p{
+            color:rgb(0,0,255);
+        }
+
+        p{
+            color:rgba(0,0,255,0.5)
+        }
+        p{
+            color: #0000FF;;
+        }
+    
+      /*font family*/   
+        p{
+            font-family:sarif;
+        }
+        h1{
+            font-family:sans-serif;
+        }
+        h2{
+            font-family:monospace;
+        }
+
+      /*font size*/   
+    .font-size-100{
+        font-size:100%;
+    }
+    .font-size-200{
+        font-size:200%;
+    } 
+    .font-size-300{
+        font-size:300%;
+    }
+     .font-size-400{
+        font-size:400%;
+    } 
+    .font-size-500{
+        font-size:500%;
+    }
+ /*font weight*/
+    .font-weight-bold{
+        font-weight:bold;
+    }
+    .font-weight-bolder{
+        font-weight:bolder;
+    } .font-weight-lighter{
+        font-weight:lighter;
+    } .font-weight-100{
+        font-weight:100;
+    } .font-weight-500{
+        font-weight:500;
+    } .font-weight-900{
+        font-weight:900;
+    }
+
+/*font style*/
+    .font-style-normal{
+        font-style:normal;
+    }
+    .font-style-italic{
+        font-style:italic;
+    }
+    .font-style-oblique{
+        font-style:oblique;
+    }
+
+ /*text transform*/    
+    .text-transform-uppercase{
+        text-transform: uppercase;
+    }
+    .text-transform-lowercase{
+        text-transform: lowercase;
+    }
+    .text-transform-capitalize{
+        text-transform: capitalize;
+    }
+ 
+  /*text decoration*/   
+    .text-decoration-overline{
+        text-decoration:overline;
+    }
+    .text-decoration-underline{
+        text-decoration:underline;
+    }
+    .text-decoration-line-through{
+        text-decoration:line-through;
+    }
+
+/*text-align*/
+    .left{
+        text-align:left
+    }
+    .center{
+        text-align:center
+    }
+    .right{
+        text-align:right
+    }
+
+ /*text shadow*/
+    .text-shadow{
+        text-shadow: 5px -10px 5px pink;
+    }
+
+ /*text indent*/
+    .text-indent-px{
+        text-indent: 10px;
+    }
+    .text-indent-percent{
+        text-indent: 10%;
+    }
+    .text-indent-em{
+        text-indent: 10em;
+    }
+  
+ /*letter spacing*/   
+    .letter-spacing{
+        letter-spacing:10px;
+    }
+/*word spacing*/
+    .word-spacing-10{
+        word-spacing: 10px;
+    }
+    .word-spacing-50{
+        word-spacing: 50px;
+    }
+
+    
+    </style>
+
+</head>
+<body>
+    <h1>Sample Text2</h1>
+    <h2>Sample Text3</h2>
+    <h3>Sample Text4</h3>
+
+ <!--Using px css unit-->
+    <p class="font-size-10">font-size:10px</p>
+    <p class="font-size-20">font-size:20px</p> 
+    <p class="font-size-30">font-size:30px</p>
+    <p class="font-size-40">font-size:40px</p>
+    <p class="font-size-50">font-size:50px</p>
+
+    
+ <!--Using % css unit-->
+    <p class="font-size-100">font-size:100%</p>
+    <p class="font-size-200">font-size:200%</p> 
+    <p class="font-size-300">font-size:300%</p>
+    <p class="font-size-400">font-size:400%</p>
+    <p class="font-size-500">font-size:500%</p>
+
+<!--Using font weight css unit-->
+    <p class="font-weight-bold">font-weight-bold</p>
+    <p class="font-weight-bolder">font-weight-bolder</p> 
+    <p class="font-weight-lighter">font-weight-lighter</p>
+    <p class="font-weight-100">font-weight-100</p>
+    <p class="font-weight-500">font-weight-500</p>
+   <p class="font-weight-900">font-weight-900</p>
+
+<!-- font style-->
+    <p class="font-style-normal">Normal</p>
+    <p class="font-style-italic">Italic</p>
+    <p class="font-style-oblique">Oblique</p>
+
+<!-- Text transform-->
+<p class="text-transform-uppercase">Uppercase</p>
+<p class="text-transform-lowercase">Lowercase</p>
+<p class="text-transform-capitalize">Capitalize</p>
+
+<!--Text Decoration-->
+<p class="text-decoration-overline">Overline</p>
+<p class="text-decoration-underline">Underline</p>
+<p class="text-decoration-line-through">Line Through</p>
+
+<!--text align-->
+<p class="left">Left</p>
+<p class="center">Center</p>
+<p class="right">Right</p>
+
+<!-- text shadow-->
+<p class="text-shadow">Text Shadow</p>
+
+<!--Text indent-->
+<div stlye="width:500px;">
+<p class="text-indent-px">10px. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae deserunt accusamus ipsum officia deleniti nobis enim laudantium expedita voluptates, voluptatem optio nisi quos. Ratione suscipit, numquam harum tempore nihil quos!</p>
+<p class="text-indent-percent">10%. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae deserunt accusamus ipsum officia deleniti nobis enim laudantium expedita voluptates, voluptatem optio nisi quos. Ratione suscipit, numquam harum tempore nihil quos!</p>
+<p class="text-indent-em">10em. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae deserunt accusamus ipsum officia deleniti nobis enim laudantium expedita voluptates, voluptatem optio nisi quos. Ratione suscipit, numquam harum tempore nihil quos!</p>
+</div>
+
+<!--Letter Spacing-->
+<p class="letter-spacing">Letter Space 10px</p>
+
+<!--Word Spacing-->
+<p class="word-spacing-10">Word Spacing 10px</p>
+<p class="word-spacing-50">Word Spacing 50px</p>
+
+</body
+</html>

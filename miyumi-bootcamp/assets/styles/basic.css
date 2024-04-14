@@ -1,0 +1,28 @@
+/*External CSS */
+
+/*ELEMENT SELECTOR */
+h2{
+    font-style:italic;
+    color: lightcoral;
+
+}
+
+/* UNIVERSAL SELECTOR */
+*{
+    border: 1px dotted gray;
+}
+
+/* CLASS SELECTOR */
+.text-center{
+    text-align: center;
+}
+
+/* ID SELECTER */
+#subtopic-02{
+    color:green;
+    font-weight:bold;
+
+}
+
+
+
